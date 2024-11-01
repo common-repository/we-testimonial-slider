@@ -1,0 +1,152 @@
+.we-testimonial-slider p {
+	color: #264605;
+	text-shadow: none;
+	font-size: 14px;
+}
+.testimonial-content {
+	padding: 15px 50px;	
+	text-align: center;
+	margin-bottom: 30px;
+}
+.testimonial-icon{
+	text-align: center;
+}
+
+.testimonial-content p {
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+.testimonial-author {
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.testimonial-list .testimonial-container {
+	width: 100%;
+	margin: 0 auto 20px auto;
+	background: rgba(234,234,234,0.5);
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 20px 0;
+	clear: both;
+}
+.testimonial-list p {
+	color: #264605;
+	text-shadow: none;
+	font-size: 14px;
+}
+.testimonial-list .testimonial-content {
+	padding: 15px 20px;
+}
+.testimonial-list .testimonial-content p {
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+.testimonial-list .testimonial-content img {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.testimonial-list .testimonial-author {
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.we_testimonial_setting ul li{
+	font-size: 18px !important
+}
+
+.testimonial-user-img{
+	text-align: center;
+}
+.testimonial-user-img img{
+	width: 70px;
+	height: 70px;
+	border-radius: 100px;
+	border: 1px solid #000;
+	padding: 5px;
+	display: inline-block;
+}
+.testimonial-author-position{
+	text-align: center;
+}
+
+
+
+/** testimonials slider **/
+#testimonials {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#testimonials .testimonial-container {
+	padding: 20px 0;
+}
+
+#testimonials h2 {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+#testimonials .carousel-wrap {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#testimonials .carousel-nav .prevbtn{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left:10px;
+  z-index: 9999;
+}
+
+#testimonials .carousel-nav .nextbtn{
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  z-index: 9999;
+}
+
+#testimonials .carousel-wrap ul {
+  display: block;
+  list-style: none;
+  position: relative;
+  margin: 0 auto;
+}
+#testimonials .carousel-wrap ul li {
+  float: left;
+  position: relative;
+  width: 100%;
+  display: none;
+}
+
+#testimonials .carousel-wrap ul li:first-child {
+  display: block;
+}
+
+.testimonial-icon .fa-comments{
+	font-size: 42px;
+	color: #b2b2b2;
+}
+
+#testimonials .prevbtn{
+	font-size: 28px;
+	cursor: pointer;
+}
+#testimonials .nextbtn{
+	font-size: 28px;
+	cursor: pointer;
+}

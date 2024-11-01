@@ -1,0 +1,169 @@
+/**********************************
+
+        SETTING PAGE CSS
+
+**********************************/
+.cls{
+    clear:both
+}
+img{
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+}
+.we_dashboard{
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-right:15px;
+    padding:15px 0px;
+}
+.we_deshboard_main{
+    margin:auto 30px;
+}
+.we_deshboard_title{
+    width:50%; 
+    float:left;
+}
+.we_deshboard_title h1{
+    color:#fff;
+    text-transform:uppercase;
+}
+.we_deshboard_logo{
+    width:50%;
+    float:left;
+}
+.we_deshboard_logo img{
+    width:250px;
+    float:right;
+    padding-top:10px;
+}
+
+.we_dashboard_setting{
+    margin-top:15px;
+    margin-right:15px;
+}
+.we_setting_dashboard{
+    width:69%;
+    float:left;
+    background-color:#fff;
+    margin-right:1%;
+}
+.we_testimonial_setting{
+    padding:30px;}
+.we_testimonial_setting h1{
+    text-transform:uppercase;
+    color:#0073aa;
+}
+.we_testimonial_setting h3{
+    line-height:28px;}
+.we_testimonial_setting ul{
+    margin:auto;
+}
+.we_dashboard_banner{
+    width:30%;
+    float:right;
+    background-color:#fff;
+}
+.we_dashboard_right{
+    padding:15px;
+}
+.we_dashboard_plugin_box {
+    margin-right: 6px;
+    margin-left: -9px;
+}
+.we_dashboard_plugins{
+    width:351px;
+    float:left; 
+    margin-top:15px;
+}
+
+.we_dashboard_plugin_box_1, .we_dashboard_plugin_box_2, .we_dashboard_plugin_box_3, .we_dashboard_plugin_box_4{
+    margin:0px 10px;
+    background: #FFF url(../images/we-bg.png);
+    background-repeat:no-repeat;
+    background-position:center 110px;
+    overflow:hidden;    
+}
+.more_plugin {
+    background-color: #0a9ee6;
+}
+
+.more_plugin{
+    padding:15px;
+}
+.more_plugin_details{
+    color:#fff;
+}
+.more_plugin_details .content{
+	min-height: 60px;
+}
+.more_plugin_details a{
+    color:#fff;
+}
+.we_plugin_icon {
+    padding: 15px;
+    padding-bottom:80px;
+}
+.we_plugin_icon img{
+    width:100px;
+    height:100px;
+    text-align:center;
+    margin:auto;
+    border-radius:50px;
+}
+
+.we-install-now.button {
+    background-color: #555;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+@media ( max-width:1024px){
+    .we_setting_dashboard{
+        width:59%;
+    }
+    .we_dashboard_banner{
+        width: 40%;
+    }   
+}
+@media ( max-width:767px){
+    .we_dashboard{
+        background:#fff;}
+    .we_setting_dashboard{
+        width:100%;
+    }
+    .we_dashboard_banner{
+        width: 100%;
+        margin-top:15px;
+    }
+    .we_deshboard_title{
+        width:100%;
+        text-align:center;
+    }
+    .we_deshboard_logo{
+        width:100%;
+        text-align:center;
+        margin:auto;
+    }   
+    .we_deshboard_logo img{
+        text-align:center;
+        float:none;
+        margin:auto;
+    }
+    .we_deshboard_title h1{
+        font-size:20px;
+        color:#000;
+    }
+    .we_testimonial_setting h1{
+        line-height:36px;
+        font-size:22px;
+    }        
+}
+@media ( max-width:360px){
+    .we_dashboard_plugins{
+        width:100%;
+        float:left; 
+        margin-top:15px;
+    }
+}
